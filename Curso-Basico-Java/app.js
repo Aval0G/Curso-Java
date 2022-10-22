@@ -36,3 +36,8 @@ function saludos(numero1, numero2){
 }
 
 saludos(5,2);
+
+
+if ('a') console.log('Bienvenido');
+else console.log('No es el Nombre');
+

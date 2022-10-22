@@ -5,6 +5,15 @@
 // La siguiente linea da un mensaje en consola
 console.log('Hi!'); // Pueden existir comentarios a la vez que codigo
 
+
+//Operadores Logicos
+
+if (!7) console.log(4);//Vuelve los verdaderos falsos y viceversa
+if (5 || 5) console.log(5); // O cumple
+if (5 && 7) console.log(4); // y cumple tambien 
+
+
+
 //Puedes usar console.log() para imprimir un dato en consola 
 //Ejemplos de impresion de datos
 let boolean = true;
@@ -93,14 +102,36 @@ console.log(string1 % string2); // -> NaN
 
 const Aldolo = 0 //Constante
 
-//Condicionales
+/*Condicional if-else
+if(condicion) {
+    // ejecuta esta si es verdad
+} else {
+    // ejecuta esta si es falso
+}
 
+Valores que son en automatico Falso el resto son Verdadero a menos que tengan una condicion
+false
+null
+undefined
+'' or "" (empty, 0-length string)
+0 (the number zero)
+NaN
+*/
+
+//Ejemplo
 if (85 == 10){
     console.log("Correcto")
 }
 else {
     console.log("Incorrecto")
 }
+
+//Puedes evitar usar {} si el codigo es de una sola linea ya sea if o else
+let falseFlag = false;
+
+if(falseFlag) console.log('Esto no se imprime.');
+else console.log('Esto se imprime');
+
 
 //  While (Cadenas)
 let contar = 50;
