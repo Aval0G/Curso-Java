@@ -154,3 +154,43 @@ function saludos(){
 
 saludos();
 
+//Funciones 
+
+function nombre(/*parametros*/) {
+console.log('Primer codigo para mi funcion');
+//aqui va el codigo de la funcion    
+}
+
+//Puedes volver a pedir la funcion usando
+nombre()
+
+//Ejemplo practico
+function printValue(someValue) {
+    console.log('Nos regresara: ' + someValue);
+}
+
+printValue('abc');     // -> Nos regresara abc
+printValue('Holka!');  // -> Nos regresara Hola
+printValue(6);         // -> Nos regresara 6
+printValue(false);     // -> Nos regresara Falso
+
+//Si declaras un variable dentro de una funcion esta solo se podra usar dentro de la funcion 
+//Cuando una funcion no recibe un valor regresa un undefinido
+function printValues(valor1, valor2, valor3) {
+    console.log(valor1 + ', ' + valor2 + ', ' + valor3);
+}
+
+printValues('abc', 123, true); // -> abc, 123, true
+printValues('abc', 123); // -> abc, 123, undefined
+printValues('abc'); // -> abc, undefined, undefined
+printValues(); // -> undefined, undefined, undefined
+
+
+//Regresar (Return)
+function add10(number) {
+    let newNumber = number + 10;
+    return newNumber;
+}
+
+let fifteen = add10(5);
+console.log(fifteen); // -> 15
