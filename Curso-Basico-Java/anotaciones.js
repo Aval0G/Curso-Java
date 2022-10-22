@@ -5,6 +5,16 @@
 // La siguiente linea da un mensaje en consola
 console.log('Hi!'); // Pueden existir comentarios a la vez que codigo
 
+//Puedes usar console.log() para imprimir un dato en consola 
+//Ejemplos de impresion de datos
+let boolean = true;
+let cadena= 'abc';
+
+console.log('Hola!'); // -> Hello!
+console.log(false); // -> false
+console.log(boolean); // -> true
+console.log(cadena); // -> abc
+
 
 //tipos de datos JavaScript
 "Aldopis" //String C 
