@@ -54,6 +54,41 @@ console.log({
     var numero = 10;     //Variable con valor igualado a 10
     let numerito = 12;   //Variable con valor igualado a 12 
 
+//Puedes reasignar un valor a una variable de la forma:(sin usar de nuevo let)
+let variable = 'abc';
+console.log(variable); // -> abc
+
+variable = 25;
+console.log(variable); // -> 25
+
+variable = false;
+console.log(variable); // -> false
+
+//Puedes copiar el valor de una variable en otra de la forma 
+let variables = 'abc';
+let variableCopy = variables;
+variable = 'def';
+
+console.log(variables); // -> def
+console.log(variableCopy); // -> abc
+
+//Indefinido (undefined) Sucede cuando no existe un valor para esa variable
+let variablel;
+console.log(variablel); // -> undefined
+
+//Sin valor (Null) Cuando quieres declarar que algo no tiene valor:
+let variableN = null;
+console.log(variableN); // -> null
+
+//NaN Not a number significa que algo no es un numero por lo que no puede retornar valor
+let string1 = 'Hola ';
+let string2 = 'Ustedes!';
+
+console.log(string1 - string2); // -> NaN
+console.log(string1 * string2); // -> NaN
+console.log(string1 / string2); // -> NaN
+console.log(string1 % string2); // -> NaN
+
 //Declaracion de Constante (No puede cambiar)
 
 const Aldolo = 0 //Constante
