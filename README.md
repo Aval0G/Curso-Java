@@ -4,12 +4,12 @@
 
 **Componentes Necesarios*
 
-Aldo debe tener en su computadora instalado 
+Aldo debe tener en su computadora instalado:
 
 *Visual Studio*
 *Node Js*
 
-Extensiones en Visual
+Extensiones en Visual:
 
 *Prettier Formater Code*
 *Bracket Pair Colorization Toggler*
