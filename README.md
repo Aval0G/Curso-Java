@@ -1,6 +1,6 @@
 ﻿## Curso-Java ##
-# Para Aldo Valdez
-# De Aldo Valdez
+ **Para Aldo Valdez**
+**De Aldo Valdez**
 
 **Componentes Necesarios*
 
