@@ -39,7 +39,13 @@ console.log(cadena); // -> abc
 
 true / false //Boolean
 
-//array   (Un conjunto para revisar o obtener un dato)
+//Array   (Un conjunto para revisar o obtener un dato)
+//Para generar un array usas [] asi como separas los items por comas [I1,I2,I3]
+let array = [5,5,2,1,1];
+console.log(array); // -> []
+
+
+//Algunoa arrays
 ['Aldo', 'Cesar', 'Iriam']
 [5, 7, 8]
 [true, false, true, false]
@@ -97,6 +103,8 @@ console.log(string1 - string2); // -> NaN
 console.log(string1 * string2); // -> NaN
 console.log(string1 / string2); // -> NaN
 console.log(string1 % string2); // -> NaN
+// Nota Extra (% es el residuo ejemplo 7.4 % 1 = .4 o 5 % 2 =1)
+
 
 //Declaracion de Constante (No puede cambiar)
 
@@ -194,3 +202,4 @@ function add10(number) {
 
 let fifteen = add10(5);
 console.log(fifteen); // -> 15
+
