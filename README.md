@@ -1,4 +1,4 @@
-﻿![Portada](iMG/IMG_20201220_140843)
+﻿![Portada](IMG/IMG_20201220_140843)
  ## Curso-Java #
  **Para Aldo Valdez**
 **De Aldo Valdez**
